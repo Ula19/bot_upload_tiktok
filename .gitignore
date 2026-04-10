@@ -28,7 +28,6 @@ downloads/
 # Markdown не отслеживаем (кроме README.md) — правило №25
 *.md
 !README.md
-!CLAUDE.md
 
 # тестовые скрипты
 test_local.py

@@ -39,7 +39,6 @@ bot_4_tiktok/
 ├── docker-compose.yml
 ├── requirements.txt
 ├── .env.example
-└── CLAUDE.md
 ```
 
 ## Деплой
@@ -60,6 +59,3 @@ docker compose logs -f bot
 
 См. `.env.example` — минимальный набор переменных. `BOT_API_URL` задаётся в `docker-compose.yml` напрямую.
 
-## Разработка
-
-См. `CLAUDE.md` — архитектурные правила, паттерны, соглашения. Общий каркас описан в `../../COMMON_SPEC.md`.
