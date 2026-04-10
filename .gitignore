@@ -1,0 +1,34 @@
+# виртуальное окружение
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# переменные окружения
+.env
+
+# системные файлы
+.DS_Store
+
+# логи
+*.log
+
+# временные файлы скачивания
+downloads/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# БД и локальные артефакты
+*.db
+.crash_flag
+
+# Markdown не отслеживаем (кроме README.md) — правило №25
+*.md
+!README.md
+!CLAUDE.md
+
+# тестовые скрипты
+test_local.py
